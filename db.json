@@ -1,0 +1,156 @@
+{
+  "stats": [
+    {
+      "id": "01",
+      "title": "students",
+      "amount": 1537
+    },
+    {
+      "id": "02",
+      "title": "courses",
+      "amount": 24
+    },
+    {
+      "id": "03",
+      "title": "instructors",
+      "amount": 36
+    },
+    {
+      "id": "04",
+      "title": "events",
+      "amount": 158
+    }
+  ],
+  "courses": [
+    {
+      "id": "02",
+      "title": "User eXperience (UX) Research",
+      "imagePath": "/ui-ux.png",
+      "price": {
+        "normal": 500,
+        "early_bird": 450
+      },
+      "dates": {
+        "start_date": "2020-10-05",
+        "end_date": "2020-10-27"
+      },
+      "duration": "4 Fridays and 4 Saturdays",
+      "open": true,
+      "instructors": [
+        "01",
+        "02"
+      ],
+      "description": "<p>Do you want to <strong>design products based on opinions or based on evidence</strong>?</p><p>In this course you will learn how <strong>UX research</strong> builds products that users really need, can and want to use!</p>"
+    },
+    {
+      "id": "04",
+      "title": "React",
+      "imagePath": "/react.png",
+      "price": {
+        "normal": 500,
+        "early_bird": 450
+      },
+      "dates": {
+        "start_date": "2018-10-19",
+        "end_date": "2018-10-10"
+      },
+      "duration": "2 Fridays and 4 Saturdays",
+      "open": true,
+      "instructors": [
+        "01"
+      ],
+      "description": "<p>This is a certified program by Athens Tech College, the first educational institution in Greece that specialises in computer science and ICT studies.</p><p>Participant’s registration (payment’s completion) implies full compliance and acceptance of Code.Learn Terms &amp; Conditions.</p>"
+    },
+    {
+      "title": "Angular",
+      "imagePath": "/angular.png",
+      "price": {
+        "normal": "697",
+        "early_bird": "400"
+      },
+      "dates": {
+        "start_date": "23/07/2021",
+        "end_date": "29/07/2021"
+      },
+      "duration": "2 weeks",
+      "open": true,
+      "instructors": [
+        "01"
+      ],
+      "description": "<p>This is a certified program by Athens Tech College, the first educational institution in Greece that specialises in computer science and ICT studies.</p><p>Participant’s registration (payment’s completion) implies full compliance and acceptance of Code.Learn Terms &amp; Conditions.</p>",
+      "id": "dmNl7iv"
+    },
+    {
+      "title": "Scrum",
+      "imagePath": "/scrum.png",
+      "price": {
+        "normal": "1900",
+        "early_bird": "1000"
+      },
+      "dates": {
+        "start_date": "06/08/2021",
+        "end_date": "12/08/2021"
+      },
+      "duration": "3weeks",
+      "open": true,
+      "instructors": [
+        "01"
+      ],
+      "description": "<p>This is a certified program by Athens Tech College, the first educational institution in Greece that specialises in computer science and ICT studies.</p><p>Participant’s registration (payment’s completion) implies full compliance and acceptance of Code.Learn Terms &amp; Conditions.</p>",
+      "id": "JrIy1cf"
+    },
+    {
+      "title": "dede",
+      "imagePath": "dede",
+      "price": {
+        "normal": "03",
+        "early_bird": "03"
+      },
+      "dates": {
+        "start_date": "de",
+        "end_date": "de"
+      },
+      "duration": "de",
+      "open": true,
+      "instructors": [
+        "01"
+      ],
+      "description": "<p>This is a certified program by Athens Tech College, the first educational institution in Greece that specialises in computer science and ICT studies.</p><p>Participant’s registration (payment’s completion) implies full compliance and acceptance of Code.Learn Terms &amp; Conditions.</p>",
+      "id": "IM0iMQu"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "01",
+      "gender": "male",
+      "name": {
+        "first": "John",
+        "last": "Tsevdos"
+      },
+      "email": "tsevdosjohn@gmail.com",
+      "dob": "1982-02-26",
+      "bio": "front-end developer from Athens, Greece",
+      "hobbies": [
+        "football",
+        "movies"
+      ],
+      "linkedin": "https://www.linkedin.com/sample"
+    },
+    {
+      "id": "02",
+      "gender": "male",
+      "name": {
+        "first": "Yiannis",
+        "last": "Nikolakopoulos"
+      },
+      "username": "tsevdos",
+      "email": "inikolakopoulos@codehub.gr",
+      "dob": "1977-05-19",
+      "bio": "Co-Founder Code.Hub",
+      "hobbies": [
+        "movies"
+      ],
+      "linkedin": "https://www.linkedin.com/sample"
+    }
+  ]
+}

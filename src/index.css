@@ -1,0 +1,35 @@
+#jumbotron-container {
+  margin-top: 2rem;
+}
+
+#stats-container {
+  margin-bottom: 2rem;
+}
+
+.course-card {
+  margin-bottom: 2rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.forms{
+  /* background-color: grey; */
+  background:rgba(1,1,1,0.1);
+  border-radius: 5px;
+  margin-top:30px;
+
+}
+.add{
+  /* background-color: blue;
+  float:right; */
+  margin-top:10px;
+  margin-left:950px;
+}
+.crs{
+  background-color: #3366ff;
+}
+.inp{
+  width: 600px;
+}
