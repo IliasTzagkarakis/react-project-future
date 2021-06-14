@@ -1,12 +1,11 @@
 import React from "react";
 import { Row, Col, Button } from "reactstrap";
-import AddCourse from "../views/AddCourse";
 import CourseEdit from "./CourseEdit"
 
 
 
 
-const CourseEntry = ({ courses,course // +++++++++++++++, isEditing,
+const CourseEntry = ({course, isEditing,
   id,
   title,
   imagePath,
@@ -36,7 +35,7 @@ const CourseEntry = ({ courses,course // +++++++++++++++, isEditing,
 //     } )
 //   }
 
-   return (isEditing? //++++++++
+   return (isEditing?
     <> 
       <Row>
         <Col xs={12}>
@@ -77,9 +76,9 @@ const CourseEntry = ({ courses,course // +++++++++++++++, isEditing,
           </div>
         </Col>
       </Row>
-    </>: //+++++++++
+    </>: 
     <> 
-      < CourseEdit courseEdit={course} /> //+++++++++
+      < CourseEdit courseEdit={course} />
     </>
 
     
