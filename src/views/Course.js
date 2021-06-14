@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { useRouteMatch, useHistory, Switch, Link, Route } from "react-router-dom";
+import { useRouteMatch, useHistory/* , Switch, Link, Route */ } from "react-router-dom";
 import CourseEntry from "../components/CourseEntry";
 import { fetchCourse, deleteCourse, updateCourse } from "../api";
 import Loader from "../components/Loader";
-import AddCourse from "./AddCourse";
-// import CourseEdit from './courseEdit';
+/* import AddCourse from "./AddCourse"; */
+/* import CourseEdit from './courseEdit'; */
 
 
 const Course = () => {
 
   const match = useRouteMatch();
   const [course, setCourse] = useState(null);
-  const [isEditing, setIsEditing] = useState(true); //++++++++++++++++++
+  const [isEditing, setIsEditing] = useState(true); 
 
   useEffect(() => {
     const fetshCourse = async () => {
@@ -25,7 +25,7 @@ const Course = () => {
 
   const handleEdit = async (e) => {
     e.preventDefault();
-    setIsEditing(isEditing=>!isEditing); //+++++++++++++++++++++++++++
+    setIsEditing(isEditing=>!isEditing); 
     await updateCourse(course);
   };
 
@@ -44,9 +44,9 @@ const Course = () => {
     <>
       {course ? (
         <CourseEntry
-          isEditing = {isEditing} //++++++++++++
+          isEditing = {isEditing} 
           {...course}
-          course={course} //+++++++++++++
+          course={course} 
           handleEdit={handleEdit}
           handleDelete={handleDelete}
         />
